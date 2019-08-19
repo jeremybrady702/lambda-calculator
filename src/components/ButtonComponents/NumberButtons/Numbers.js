@@ -19,7 +19,7 @@ const Numbers = props => {
             <NumberButton
               key={index}
               text={number}
-              concatNumber={props.concatNumber}
+              // concatNumber={props.concatNumber}
             />
           ))}
         </div>
@@ -28,7 +28,7 @@ const Numbers = props => {
             <NumberButton
               key={index}
               text={number}
-              concatNumber={props.concatNumber}
+              // concatNumber={props.concatNumber}
             />
           ))}
         </div>
@@ -37,16 +37,16 @@ const Numbers = props => {
             <NumberButton
               key={index}
               text={number}
-              concatNumber={props.concatNumber}
+              // concatNumber={props.concatNumber}
             />
           ))}
         </div>
         <div className="row zeroRow">
           {zeroRow.map((number, index) =>
             index === 0 ? (
-              <NumberButton key={index} text={number} concatNumber={props.concatNumber} buttonClass={"zero"} />
+              <NumberButton key={index} text={number} buttonClass={"zero"} />
             ) : (
-              <NumberButton key={index} concatNumber={props.concatNumber} text={number} buttonClass={"reg"} />
+              <NumberButton key={index}  text={number} buttonClass={"reg"} />
             )
           )}
         </div>

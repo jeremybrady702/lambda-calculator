@@ -5,7 +5,7 @@ const NumberButton = ({ number, buttonClass }) => {
     <>
       {buttonClass === "zero" ? (
         <button
-          onClick={() => props.concatNum(props.number)}
+          // onClick={() => props.concatNum(props.number)}
           className="button zero"
         >
           {number}
@@ -13,7 +13,7 @@ const NumberButton = ({ number, buttonClass }) => {
       ) : (
         <button
           className="button number"
-          onClick={() => props.concatNum(props.number)}
+          // onClick={() => props.concatNum(props.number)}
         >
           {number}
         </button>
